@@ -1,20 +1,12 @@
 import { ModelsWrapper, ModelSection } from "../Model";
 import Particles from "react-particles-js";
 
-import { Container } from "./styles";
+import { Container, ParticleBackground } from "./styles";
 
 function Page() {
   return (
     <Container>
-      <div
-        style={{
-          position: "fixed",
-          overflowY: "scroll",
-          zIndex: -1,
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
+      <ParticleBackground>
         <Particles
           params={{
             particles: {
@@ -24,14 +16,30 @@ function Page() {
               size: {
                 value: 3,
               },
-            }
+            },
           }}
         />
-      </div>
+      </ParticleBackground>
       <ModelsWrapper>
-        <div style={{ zIndex: 10 }}>
+        <div>
           <ModelSection>
-            <h1 style={{ color: "red" }}>IH ALA</h1>
+            <div>
+              <a href="#home">
+                <span>Home</span>
+              </a>
+              <a href="#quem-somos">
+                <span>Quem Somos</span>
+              </a>
+              <a href="#servicos">
+                <span>Serviços</span>
+              </a>
+              <a href="#time">
+                <span>Time</span>
+              </a>
+              <a href="#contato">
+                <span>Contato</span>
+              </a>
+            </div>
           </ModelSection>
           <ModelSection>
             <h1 style={{ color: "red" }}>IH ALA</h1>
