@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0px 15px;
+}
+.header a:hover {
+  color: #ab65d9;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.logomarca{
+    width: 700px;
+    margin: auto;
+}
+
+.description{
+    font-size:1.3rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.wrapper{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .wrapper a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .wrapper a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapper a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  .wrapper a:hover{
+    color: #fff;
+  }
+  
+  .wrapper a:hover:after{
+    width: 100%;
+  }
