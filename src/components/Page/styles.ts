@@ -12,7 +12,7 @@ export const ParticleBackground = styled.div`
 
 export const Button = styled.button`
   position: relative;
-  background-color: yellow;
+  background-color: #8DB8F2;
   border: none;
   padding: 10px 50px;
   cursor: pointer;
@@ -20,25 +20,8 @@ export const Button = styled.button`
   font-weight: 400;
   transition: 0.5s;
 
-  & > a {
-    z-index: 10;
-  }
   &:hover {
-    background-color: transparent;    
-}
-
-  &:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #ff003b;
+    background: #A3CAFF;
     transition: all 0.35s;
-  }
-  &:hover:after {
-    width: 100%;
-    z-index: -10;
   }
 `;

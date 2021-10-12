@@ -2,7 +2,15 @@ import { ModelsWrapper, ModelSection } from "../Model";
 import { Container, ParticleBackground, Button } from "./styles";
 
 import Home from "../../styles/Home.module.css";
+import Quemsomos from "../../styles/Quemsomos.module.css";
+import Servicos from "../../styles/Servicos.module.css";
+
 import Logomarca from "../../assets/img/logomarca_white.png";
+import Logotipo from "../../assets/img/logotipo_bg.png";
+import Icon1 from "../../assets/img/icon_1.png";
+import Icon2 from "../../assets/img/icon_2.png";
+import IconBlock from "../../assets/img/icon_block.png";
+
 import Particles from "react-particles-js";
 
 function Page() {
@@ -24,6 +32,7 @@ function Page() {
       </ParticleBackground>
       <ModelsWrapper>
         <div>
+          {/*Home*/}
           <ModelSection>
             <div className={Home.container}>
               <div className={Home.header}>
@@ -46,13 +55,118 @@ function Page() {
               <div className={Home.hero}>
                 <img className={Home.logomarca} src={Logomarca} alt="" />
                 <span className={Home.description}>Fábrica de software</span>
-                <Button><a>Edital</a></Button>
+                <a href="#edital">
+                  <Button>Edital</Button>
+                </a>
               </div>
             </div>
           </ModelSection>
+          {/*Quem somos*/}
           <ModelSection>
-            <h1 style={{ color: "red" }}>IH ALA</h1>
+            <div className={Quemsomos.container} id="quem-somos">
+              <div className={Quemsomos.leftContainer}>
+                <div className={Quemsomos.description}>
+                  <h2>Biticev</h2>
+                  <span>
+                    <p>
+                      Sed tempus justo leo, in fringilla mauris pharetra vel.
+                      Pellentesque pellentesque, velit a eleifend hendrerit,
+                      tortor ante dapibus diam, eu sodales ante tortor eget
+                      metus. Aenean pharetra turpis malesuada tincidunt
+                      ultrices.
+                      <br />
+                      <br />
+                      Maecenas scelerisque risus sed rhoncus tempus. Vivamus in
+                      quam sagittis, suscipit purus et, scelerisque risus.
+                      Vivamus id magna velit. Aenean nec libero eget risus
+                      sollicitudin rutrum sit amet ut urna. Vivamus pretium
+                      posuere tincidunt. Nam id consequat nisl, et scelerisque
+                      orci.
+                    </p>
+                  </span>
+                </div>
+
+                <div className={Quemsomos.list}>
+                  <div className={Quemsomos.item}>
+                    <img className={Quemsomos.icone} src={Icon1} alt="" />
+                    <div className={Quemsomos.item__description}>
+                      <h3>Missão</h3>
+                      <p>
+                        Quisque eget consequat nisi, sed sollicitudin metus. Nam
+                        faucibus viverra dui vitae pulvinar. Donec diam lacus,
+                        sollicitudin eu metus eu,
+                      </p>
+                    </div>
+                  </div>
+                  <div className={Quemsomos.item}>
+                    <img className={Quemsomos.icone} src={Icon2} alt="" />
+                    <div className={Quemsomos.item__description}>
+                      <h3>Valores</h3>
+                      <p>
+                        Quisque eget consequat nisi, sed sollicitudin metus. Nam
+                        faucibus viverra dui vitae pulvinar. Donec diam lacus,
+                        sollicitudin eu metus eu,
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={Quemsomos.rightContainer}>
+                <img className={Quemsomos.logotipo} src={Logotipo} alt="" />
+              </div>
+            </div>
           </ModelSection>
+
+          {/*Servicos*/}
+          <ModelSection>
+            <div className={Servicos.container} id="servicos">
+              <h2>Serviços</h2>
+              <div className={Servicos.list}>
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+                <div className={Servicos.item}>
+                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <h3>Desenvolvimento</h3>
+                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                </div>
+
+              </div>
+            </div>
+          </ModelSection>
+
+          {/*Time*/}
+          <ModelSection></ModelSection>
+
+          {/*Contato*/}
+          <ModelSection></ModelSection>
         </div>
       </ModelsWrapper>
     </Container>
