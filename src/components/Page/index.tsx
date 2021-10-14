@@ -168,7 +168,7 @@ function Page() {
             <div className={Time.container}>
               <div
                 className="gallery js-flickity"
-                data-flickity-options='{ "wrapAround": true }'
+                data-flickity-options='{ "wrapAround": true, "groupCells": 3}'
               >
                 <div className="gallery-cell">
                   <div className={Time.time}>
