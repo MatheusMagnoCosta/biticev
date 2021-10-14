@@ -165,7 +165,7 @@ function Page() {
 
           {/*Time*/}
           <ModelSection>
-            <div className={Time.container}>
+            <div className={Time.container} id="time">
               <div
                 className="gallery js-flickity"
                 data-flickity-options='{ "wrapAround": true, "autoPlay": 2500, "fade": true}'
