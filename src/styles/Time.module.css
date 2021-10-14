@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.time h3{
+  text-align: center;
+}
+
+.time span{
+  width: 500px;
+  text-align: center;
+}
+
+.avatar {
+  height: 300px;
+  width: 300px;
+}

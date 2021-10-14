@@ -4,9 +4,11 @@ import { Container, ParticleBackground, Button } from "./styles";
 import Home from "../../styles/Home.module.css";
 import Quemsomos from "../../styles/Quemsomos.module.css";
 import Servicos from "../../styles/Servicos.module.css";
+import Time from "../../styles/Time.module.css";
 
 import Logomarca from "../../assets/img/logomarca_white.png";
 import Logotipo from "../../assets/img/logotipo_bg.png";
+import Avatar from "../../assets/img/avatar.png";
 import Icon1 from "../../assets/img/icon_1.png";
 import Icon2 from "../../assets/img/icon_2.png";
 import IconBlock from "../../assets/img/icon_block.png";
@@ -157,13 +159,64 @@ function Page() {
                   <h3>Desenvolvimento</h3>
                   <p>Lorem ipsum dolor sit amet, consecteteu.</p>
                 </div>
-
               </div>
             </div>
           </ModelSection>
 
           {/*Time*/}
-          <ModelSection></ModelSection>
+          <ModelSection>
+            <div className={Time.container}>
+              <div
+                className="gallery js-flickity"
+                data-flickity-options='{ "wrapAround": true }'
+              >
+                <div className="gallery-cell">
+                  <div className={Time.time}>
+                    <img className={Time.avatar} src={Avatar} alt="" />
+                    <h3>Nome</h3>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua
+                    </span>
+                  </div>
+                </div>
+                <div className="gallery-cell">
+                  <div className={Time.time}>
+                    <img className={Time.avatar} src={Avatar} alt="" />
+                    <h3>Nome 1</h3>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua
+                    </span>
+                  </div>
+                </div>
+                <div className="gallery-cell">
+                  <div className={Time.time}>
+                    <img className={Time.avatar} src={Avatar} alt="" />
+                    <h3>Nome 2</h3>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua
+                    </span>
+                  </div>
+                </div>
+                <div className="gallery-cell">
+                  <div className={Time.time}>
+                    <img className={Time.avatar} src={Avatar} alt="" />
+                    <h3>Nome 3</h3>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ModelSection>
 
           {/*Contato*/}
           <ModelSection></ModelSection>
