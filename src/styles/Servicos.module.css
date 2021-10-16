@@ -30,3 +30,106 @@
 .item p{
     text-align: center;
 }
+
+@media (max-width: 870px){
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .container h2 {
+    font-size: 1.7rem;
+  }
+
+  .icone{
+    width: 4rem
+  }
+
+  .item p{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .container h3{
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 520px){
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+
+  .icone{
+    width: 3rem
+  }
+}
+
+@media (max-width: 442px){
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 100px;
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .container h2 {
+    font-size: 1.7rem;
+  }
+
+  .icone{
+    width: 2.5rem
+  }
+
+  .container h3{
+    font-size: 1.0rem;
+  }
+
+  .item p{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 340px){
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 90px;
+    width: 70%;
+    margin-top: 0.9rem;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+
+  .icone{
+    width: 2.0rem
+  }
+
+  .container h3{
+    font-size: 0.8rem;
+  }
+
+  .item p{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
