@@ -1,0 +1,126 @@
+.main {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  /*   flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  color: #fff;
+  margin-bottom: 10rem;
+}
+.container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+.contato {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  /*   justify-content: space-evenly; */
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.form {
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  align-content: space-between;
+}
+
+.form p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.input {
+  background: transparent;
+  height: 2rem;
+  border: 1.2px solid #e1e2ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: #e1e2ed;
+}
+
+.input::placeholder {
+  color: #e1e2ed;
+  line-height: 24px;
+}
+
+.input:nth-child(4) {
+  height: 10rem;
+}
+
+.containerInfo {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  margin-left: 1rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.social {
+  display: flex;
+  margin-top: 1rem;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.rodape {
+  padding: 50px 0;
+  position: absolute;
+  bottom: 0;
+  line-height: 35px;
+  text-align: center;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+  background: linear-gradient(
+    180deg,
+    #1a1824 8.85%,
+    rgba(99, 63, 127, 0.7) 99.69%,
+    rgba(99, 63, 127, 0.7) 100%,
+    rgba(99, 63, 127, 0.7) 100%
+  );
+}
+
+.logomarca {
+  width: 300px;
+  margin: auto;
+}
+
+.link {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 30%;
+}

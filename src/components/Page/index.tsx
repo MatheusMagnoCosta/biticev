@@ -1,10 +1,11 @@
-import { ModelsWrapper, ModelSection } from "../Model";
-import { Container, ParticleBackground, Button } from "./styles";
+import { ModelsWrapper, ModelSection, Carousel1, Maps} from "../Model";
+import { Container, ParticleBackground, Button, ButtonForm} from "./styles";
 
 import Home from "../../styles/Home.module.css";
 import Quemsomos from "../../styles/Quemsomos.module.css";
 import Servicos from "../../styles/Servicos.module.css";
 import Time from "../../styles/Time.module.css";
+import Contato from "../../styles/Contato.module.css";
 
 import Logomarca from "../../assets/img/logomarca_white.png";
 import Logotipo from "../../assets/img/logotipo_bg.png";
@@ -14,6 +15,8 @@ import Icon2 from "../../assets/img/icon_2.png";
 import IconBlock from "../../assets/img/icon_block.png";
 
 import Particles from "react-particles-js";
+
+
 
 function Page() {
   return (
@@ -164,7 +167,7 @@ function Page() {
           </ModelSection>
 
           {/*Time*/}
-          <ModelSection>
+         {/*  <ModelSection>
             <div className={Time.container}>
               <div
                 className="gallery js-flickity"
@@ -216,10 +219,76 @@ function Page() {
                 </div>
               </div>
             </div>
+          </ModelSection> */}
+          <ModelSection>
+            <div className={Time.container} id="time">
+              <h2>Time</h2>
+              <Carousel1/>
+            </div>
           </ModelSection>
 
           {/*Contato*/}
-          <ModelSection></ModelSection>
+          <ModelSection>
+            <div className={Contato.main} id="contato">
+              <div className={Contato.container}>
+                <h2>Contato</h2>
+              <div className={Contato.contato}>
+                    <form className={Contato.form}>
+                      <p>Leave us a mesage</p>
+                      <input className={Contato.input} type="text" placeholder="Nome"></input>
+                      <input className={Contato.input} type="email" placeholder="Email"></input>
+                      <input className={Contato.input} type="text" placeholder="Sua Mensagem"></input>
+                      <ButtonForm type="submit">Send</ButtonForm>
+                    </form>
+                <div className={Contato.containerInfo} >
+                  <div className={Contato.info} >
+                    <img src={IconBlock} className={Contato.icon}  alt="" />
+                    <p>bitcev@gmail.com </p>
+                  </div>
+                  <div className={Contato.info} >
+                    <img src={IconBlock} className={Contato.icon}  alt="" />
+                    <p>bitcev@gmail.com </p>
+                  </div>
+                  <div className={Contato.info} >
+                    <img src={IconBlock} className={Contato.icon}  alt="" />
+                    <p>bitcev@gmail.com </p>
+                  </div>
+                  <div className={Contato.social} >
+                    <img className={Contato.icon} src={IconBlock} alt="" />
+                    <img className={Contato.icon} src={IconBlock} alt="" />
+                    <img className={Contato.icon} src={IconBlock} alt="" />
+                    <img className={Contato.icon} src={IconBlock} alt="" />
+                  </div>
+                  <Maps/>
+                </div>
+              </div>
+            </div>
+              <div className={Contato.rodape} >
+                <div className="">
+                  <img className={Contato.logomarca} src={Logomarca} alt="" />
+                </div>
+                <div className={Contato.link}>
+                  <a href="#home">
+                    <span>Home</span>
+                  </a>
+                  <a href="#quem-somos">
+                    <span>Quem Somos</span>
+                  </a>
+                  <a href="#servicos">
+                    <span>Serviços</span>
+                  </a>
+                  <a href="#time">
+                    <span>Time</span>
+                  </a>
+                  <a href="#contato">
+                    <span>Contato</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ModelSection>
+
+          
         </div>
       </ModelsWrapper>
     </Container>
