@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cbec4fb5-e428-4a5d-b818-bc6b1cd15641/deploy-status)](https://app.netlify.com/sites/wizardly-johnson-9e2acb/deploys)
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+:rocket: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

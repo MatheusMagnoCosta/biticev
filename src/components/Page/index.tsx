@@ -167,59 +167,7 @@ function Page() {
           </ModelSection>
 
           {/*Time*/}
-         {/*  <ModelSection>
-            <div className={Time.container}>
-              <div
-                className="gallery js-flickity"
-                data-flickity-options='{ "wrapAround": true }'
-              >
-                <div className="gallery-cell">
-                  <div className={Time.time}>
-                    <img className={Time.avatar} src={Avatar} alt="" />
-                    <h3>Nome</h3>
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua
-                    </span>
-                  </div>
-                </div>
-                <div className="gallery-cell">
-                  <div className={Time.time}>
-                    <img className={Time.avatar} src={Avatar} alt="" />
-                    <h3>Nome 1</h3>
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua
-                    </span>
-                  </div>
-                </div>
-                <div className="gallery-cell">
-                  <div className={Time.time}>
-                    <img className={Time.avatar} src={Avatar} alt="" />
-                    <h3>Nome 2</h3>
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua
-                    </span>
-                  </div>
-                </div>
-                <div className="gallery-cell">
-                  <div className={Time.time}>
-                    <img className={Time.avatar} src={Avatar} alt="" />
-                    <h3>Nome 3</h3>
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </ModelSection> */}
+
           <ModelSection>
             <div className={Time.container} id="time">
               <h2>Time</h2>
