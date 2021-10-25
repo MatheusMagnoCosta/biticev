@@ -1,0 +1,277 @@
+.container {
+  display: flex;
+}
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+}
+.description {
+  color: white;
+  width: 80%;
+}
+.description h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+.description span p {
+  font-weight: 300;
+}
+
+.list {
+  width: 80%;
+  padding: 3rem 0rem;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  color: white;
+}
+.icone {
+  color: white;
+}
+.item__description {
+  margin-left: 1rem;
+}
+
+.item__description h3 {
+  margin-bottom: 10px;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+.logotipo {
+  position: absolute;
+  width: 70%;
+}
+
+
+@media (max-width: 880px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+  }
+
+  .description {
+    width: 75%;
+  }
+  .description h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 100%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 2rem 2rem;
+  }
+
+}
+
+@media (max-width: 790px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 160%;
+    height: 125vh;
+  }
+
+  .description {
+    width: 80%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 90%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 160vh;
+  }
+
+  .description {
+    width: 80%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 90%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 2rem rem;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 150%;
+    height: 155vh;
+  }
+
+  .description {
+    width: 75%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 100%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 150%;
+    height: 165vh;
+  }
+
+  .description {
+    width: 75%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 90%;
+  } 
+
+  .list {
+    width: 80%;
+    padding: 3rem 2rem;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .leftContainer {
+    flex-direction: column;
+    width:150%;
+    height: 170vh;
+  }
+
+  .description {
+    width: 70%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 100%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 150%;
+    height: 190vh;
+  }
+
+  .description {
+    width: 75%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 95%;
+  } 
+
+  .list {
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .leftContainer {
+    flex-direction: column;
+    width: 150%;
+    height: 275vh;
+  }
+
+  .description {
+    width: 70%;
+  }
+   
+  .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logotipo { 
+    position: absolute;
+    width: 100%;
+  } 
+
+  .list {
+    width: 65%;
+    padding: 1rem 1rem;
+  }
+}
