@@ -6,15 +6,13 @@
   background-color: #633f7f;
   position: absolute;
   top: 0; */
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   display: flex;
-
   position: fixed;
   justify-content: center;
   align-items: center;
-  top: 0;
-  left: 0;
-  z-index: 100;
+  /* top: 0; */
+  /* z-index: 100; */
   background: linear-gradient(
     360deg,
     #1a1824 8.85%,

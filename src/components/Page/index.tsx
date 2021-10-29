@@ -21,6 +21,25 @@ import Particles from "react-particles-js";
 function Page() {
   return (
     <Container>
+      <div className={Home.container}>
+              <div className={Home.header}>
+                <a href="#home">
+                  <span>Home</span>
+                </a>
+                <a href="#quem-somos">
+                  <span>Quem Somos</span>
+                </a>
+                <a href="#servicos">
+                  <span>Serviços</span>
+                </a>
+                <a href="#time">
+                  <span>Time</span>
+                </a>
+                <a href="#contato">
+                  <span>Contato</span>
+                </a>
+              </div>
+              </div>
       <ParticleBackground>
         <Particles
           params={{
@@ -40,23 +59,6 @@ function Page() {
           {/*Home*/}
           <ModelSection>
             <div className={Home.container}>
-              <div className={Home.header}>
-                <a href="#home">
-                  <span>Home</span>
-                </a>
-                <a href="#quem-somos">
-                  <span>Quem Somos</span>
-                </a>
-                <a href="#servicos">
-                  <span>Serviços</span>
-                </a>
-                <a href="#time">
-                  <span>Time</span>
-                </a>
-                <a href="#contato">
-                  <span>Contato</span>
-                </a>
-              </div>
               <div className={Home.hero}>
                 <img className={Home.logomarca} src={Logomarca} alt="" />
                 <span className={Home.description}>Fábrica de software</span>
