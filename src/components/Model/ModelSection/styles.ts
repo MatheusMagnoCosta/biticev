@@ -5,5 +5,5 @@ export const Container = styled.div`
 scroll-snap-align: start; */
   height: 100vh;
   align-items: center;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
 `;
