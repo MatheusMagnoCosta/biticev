@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   position: relative;
   /*   flex-direction: row; */
@@ -11,36 +11,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 75%;
   color: #fff;
   margin-bottom: 10rem;
 }
 .container h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 4rem;
 }
 
 .contato {
   display: inline-grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 50px;
+  grid-column-gap: 75px;
   /*   justify-content: space-evenly; */
-  width: 100%;
-  padding: 0 2rem;
+  width: 110%;
+  padding: 0 3rem;
 }
 
 .form {
   padding: 0;
   display: inline-flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 2;
   height: 100%;
   width: 100%;
   align-content: space-between;
 }
 
 .form p {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 2rem;
@@ -88,7 +88,7 @@
 
 .social {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding: 0;
   justify-content: space-between;
 }
@@ -99,7 +99,7 @@
   bottom: 0;
   line-height: 35px;
   text-align: center;
-  width: 100%;
+  width: 200%;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
