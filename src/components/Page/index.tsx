@@ -1,4 +1,4 @@
-import { ModelsWrapper, ModelSection, Carousel1, Maps } from "../Model";
+import { ModelsWrapper, ModelSection, Carousel1, Maps, NavBar} from "../Model";
 import { Container, ParticleBackground, Button, ButtonForm } from "./styles";
 
 import Home from "../../styles/Home.module.css";
@@ -19,7 +19,8 @@ import Particles from "react-particles-js";
 function Page() {
   return (
     <Container>
-      <div className={Home.container}>
+      <NavBar/>
+      {/* <div className={Home.container}>
         <div className={Home.header}>
           <a href="#home">
             <span>Home</span>
@@ -37,7 +38,7 @@ function Page() {
             <span>Contato</span>
           </a>
         </div>
-      </div>
+      </div> */}
 
       <ParticleBackground>
         <Particles
@@ -57,7 +58,7 @@ function Page() {
         <div>
           {/*Home*/}
           <ModelSection>
-            <div className={Home.container}>
+            <div className={Home.container} id="home">
               <div className={Home.hero}>
                 <img className={Home.logomarca} src={Logomarca} alt="" />
                 <span className={Home.description}>Fábrica de software</span>
