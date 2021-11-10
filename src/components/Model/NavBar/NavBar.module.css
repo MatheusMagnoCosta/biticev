@@ -1,0 +1,122 @@
+.NavBar {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  background: rgba(99, 63, 127, 0.7);
+  width: 100%;
+  height: 4rem;
+}
+.NavBar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0px 15px;
+}
+
+.NavBar nav ul li {
+  display: inline-block;
+  margin: 1.5vw;
+}
+
+.NavBar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar a:hover {
+  color: #ab65d9;
+}
+
+.NavBar .MobileNavigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .NavBar .Navigation {
+    display: none;
+  }
+  .NavBar .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+  .NavBar .Navigation .Hamburger {
+    cursor: pointer;
+  }
+  .NavBar .MobileNavigation .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 100%;
+    background: #181818;
+    border-top: 2px solid #ab65d9;
+  }
+
+  .NavBar {
+    z-index: 100;
+  }
+  .NavBar nav ul li {
+    padding-left: 15%;
+  }
+  .NavBar {
+    opacity: 1;
+  }
+  .NavBar a:hover {
+    color: #ab65d9;
+  }
+}
+
+@media (max-width: 600px) {
+  .NavBar {
+    /* Estilo do menu navegação*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .NavBar nav ul {
+    opacity: 1;
+    visibility: visible;
+    background-color: #181818;
+    height: 100vh; /*pegar todo as partes da altura página*/
+    width: 100vw; /*pegar todo as partes da largura página*/
+    position: fixed; /* fixar fora da nav */
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+  }
+
+  .NavBar ul {
+    /* pegar toda ul que tem a classe grid dentro de nav quando o show estiver ativo */
+    gap: 2rem;
+  }
+
+  .NavBar nav ul li {
+    /* pegar todo li dentro de ul dentro de nav */
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .NavBar .MobileNavigation .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .NavBar .MobileNavigation .Close {
+    cursor: pointer;
+    z-index: 100;
+  }
+}

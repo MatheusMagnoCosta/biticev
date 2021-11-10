@@ -56,10 +56,10 @@
   width: 70%;
 }
 
-
-@media (max-width: 880px) {
+/* @media (max-width: 880px) {
   .leftContainer {
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     height: 110vh;
   }
@@ -72,16 +72,15 @@
     margin-bottom: 2rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 100%;
-  } 
+  }
 
   .list {
     width: 90%;
     padding: 2rem 2rem;
   }
-
 }
 
 @media (max-width: 790px) {
@@ -94,16 +93,16 @@
   .description {
     width: 80%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 90%;
-  } 
+  }
 
   .list {
     width: 90%;
@@ -121,23 +120,22 @@
   .description {
     width: 80%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 90%;
-  } 
+  }
 
   .list {
     width: 90%;
     padding: 2rem rem;
   }
 }
-
 
 @media (max-width: 650px) {
   .leftContainer {
@@ -149,23 +147,22 @@
   .description {
     width: 75%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 100%;
-  } 
+  }
 
   .list {
     width: 90%;
     padding: 3rem 1rem;
   }
 }
-
 
 @media (max-width: 600px) {
   .leftContainer {
@@ -177,71 +174,81 @@
   .description {
     width: 75%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 90%;
-  } 
+  }
 
   .list {
     width: 80%;
     padding: 3rem 2rem;
   }
-}
+} */
 
-
-@media (max-width: 550px) {
-  .leftContainer {
-    flex-direction: column;
-    width:150%;
-    height: 170vh;
-  }
-
-  .description {
-    width: 70%;
-  }
-   
-  .description h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .logotipo { 
-    position: absolute;
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    height: 100%;
     width: 100%;
-  } 
+  }
 
-  .list {
-    width: 90%;
-    padding: 3rem 1rem;
+  .rightContainer {
+    width: 100vw;
+  }
+  .leftContainer {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .logotipo {
+    max-width: 250px;
+  }
+  .description h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .description span {
+    font-size: 0.8rem;
+  }
+
+  .icone {
+    max-width: 40px;
+  }
+
+  .item__description {
+    font-size: 0.8rem;
+    margin-right: 3rem;
+  }
+  .item__description h3 {
+    font-size: 1rem;
   }
 }
-
+/* 
 @media (max-width: 450px) {
   .leftContainer {
-    flex-direction: column;
-    width: 150%;
-    height: 190vh;
+    width: 100%;
+    height: 100;
   }
 
   .description {
-    width: 75%;
+    width: 100%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 95%;
-  } 
+  }
 
   .list {
     width: 90%;
@@ -250,6 +257,8 @@
 }
 
 @media (max-width: 300px) {
+  .container {
+  }
   .leftContainer {
     flex-direction: column;
     width: 150%;
@@ -259,19 +268,20 @@
   .description {
     width: 70%;
   }
-   
+
   .description h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
-  .logotipo { 
+  .logotipo {
     position: absolute;
     width: 100%;
-  } 
+  }
 
   .list {
     width: 65%;
     padding: 1rem 1rem;
   }
 }
+ */

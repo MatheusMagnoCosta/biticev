@@ -5,17 +5,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 .header {
@@ -32,8 +32,8 @@
   justify-content: center;
   align-items: center;
   /* top: 0; */
-  z-index: 10;
-  background:rgba(99, 63, 127, 0.7);
+  /* z-index: 10; */
+  background: rgba(99, 63, 127, 0.7);
   width: 100%;
   height: 4rem;
 }
@@ -92,7 +92,7 @@
 
 .wrapper a span {
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .wrapper a:after {
@@ -114,9 +114,7 @@
   width: 100%;
 }
 
-
 @media (max-width: 870px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -125,14 +123,13 @@
     margin: 2px px;
   }
 
-  .logomarca{
-      width: 600px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 600px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 700px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -141,10 +138,10 @@
     margin: 2px px;
   }
 
-  .logomarca{
-      width: 550px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 550px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 650px) {
@@ -164,14 +161,13 @@
     margin: 2px px;
   }
 
-  .logomarca{
-      width: 500px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 500px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 575px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -179,7 +175,7 @@
     font-weight: 300;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -188,22 +184,21 @@
     height: 85vh;
   }
 
-  .logomarca{
-      width: 450px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 450px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 500px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.90rem;
+    font-size: 0.9rem;
     font-weight: 300;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -212,22 +207,21 @@
     height: 90vh;
   }
 
-  .logomarca{
-      width: 400px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 400px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 440px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     font-weight: 300;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -236,14 +230,13 @@
     height: 90vh;
   }
 
-  .logomarca{
-      width: 350px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 350px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 400px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -251,7 +244,7 @@
     font-weight: 300;
     margin: 4px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -260,14 +253,13 @@
     height: 85vh;
   }
 
-  .logomarca{
-      width: 300px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 300px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 350px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -275,7 +267,7 @@
     font-weight: 900;
     margin: 1px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -284,14 +276,13 @@
     height: 65vh;
   }
 
-  .logomarca{
-      width: 250px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 250px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 310px) {
-
   .header a {
     text-decoration: none;
     color: #fff;
@@ -299,7 +290,7 @@
     font-weight: 900;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -308,22 +299,21 @@
     height: 65vh;
   }
 
-  .logomarca{
-      width: 200px;
-      margin: auto;
-  } 
+  .logomarca {
+    width: 200px;
+    margin: auto;
+  }
 }
 
-@media (max-width:270px) {
-
+@media (max-width: 270px) {
   .header a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.20rem;
+    font-size: 0.2rem;
     font-weight: 800;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -332,22 +322,21 @@
     height: 65vh;
   }
 
-  .logomarca{
-      width: 150px;
-      margin: auto;
+  .logomarca {
+    width: 150px;
+    margin: auto;
   }
 }
 
-@media (max-width:250px) {
-
+@media (max-width: 250px) {
   .header a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.30rem;
+    font-size: 0.3rem;
     font-weight: 1500;
     margin: 2px px;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -356,9 +345,8 @@
     height: 65vh;
   }
 
-  .logomarca{
-      width: 150px;
-      margin: auto;
+  .logomarca {
+    width: 150px;
+    margin: auto;
   }
-  
 }

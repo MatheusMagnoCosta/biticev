@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: inline-block;
+`;
 
 export const ParticleBackground = styled.div`
   width: 100vw;
   height: 100vh;
   position: fixed;
   overflow-y: scroll;
-  z-index: -1;
+  //z-index: -1;
 `;
 
 export const Button = styled.button`

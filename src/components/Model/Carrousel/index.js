@@ -8,9 +8,9 @@ import Time from "../../../styles/Time.module.css";
 export const Carousel1 = () => {
   const [state, setState] = useState({
     goToSlide: 0,
-    offsetRadius: 2,
+    offsetRadius: 1,
     showNavigation: true,
-    config: config.molasses,
+    config: config.default,
   });
 
   let slides = [
@@ -20,7 +20,7 @@ export const Carousel1 = () => {
         <div className={Time.time}>
           <img className={Time.avatar} src={Avatar} alt="" />
           <h3>Nome</h3>
-          <span>
+          <span className={Time.span}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </span>

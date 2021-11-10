@@ -4,5 +4,5 @@ export const Container = styled.div`
   height: 100vh;
   /* scroll-snap-type: y mandatory; */
   /* overflow: auto; */
-  z-index: -1;
+  //z-index: -1;
 `;
