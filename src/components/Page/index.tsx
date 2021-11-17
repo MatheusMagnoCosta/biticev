@@ -9,10 +9,15 @@ import Contato from "../../styles/Contato.module.css";
 
 import Logomarca from "../../assets/img/logomarca_white.png";
 import Logotipo from "../../assets/img/logotipo_bg.png";
-import Avatar from "../../assets/img/avatar.png";
-import Icon1 from "../../assets/img/icon_1.png";
-import Icon2 from "../../assets/img/icon_2.png";
+//import Icon1 from "../../assets/img/icon_1.png";
+//import Icon2 from "../../assets/img/icon_2.png";
 import IconBlock from "../../assets/img/icon_block.png";
+import IconAppDesign from "../../assets/img/icon_app_design.png";
+import IconDesenvolvimento from "../../assets/img/icon_desenvolvimento.png";
+import IconRequisitos from "../../assets/img/icon_requisitos.png";
+import IconValores from "../../assets/img/compassion.png";
+import IconMissao from "../../assets/img/valores.png";
+//import Desenvolvimento from "../../assets/img/teamwork.png";
 
 import Particles from "react-particles-js";
 
@@ -76,43 +81,30 @@ function Page() {
                   <h2>Biticev</h2>
                   <span>
                     <p>
-                      Sed tempus justo leo, in fringilla mauris pharetra vel.
-                      Pellentesque pellentesque, velit a eleifend hendrerit,
-                      tortor ante dapibus diam, eu sodales ante tortor eget
-                      metus. Aenean pharetra turpis malesuada tincidunt
-                      ultrices.
+                    Tendo em vista a missão da Escola de Tecnologia Aplicada do iCEV de fornecer à comunidade Piauiense um espaço de suporte a propostas inovadoras, nasce a Fábrica de Software - BitiCEV, em 2021. Desse modo, visamos proporcionar a conquista da excelência e eficiência no desenvolvimento de iniciativas empreendedoras, por meio da disponibilização de serviços voltados ao desenvolvimento de aplicações de TI. 
                       <br />
                       <br />
-                      Maecenas scelerisque risus sed rhoncus tempus. Vivamus in
-                      quam sagittis, suscipit purus et, scelerisque risus.
-                      Vivamus id magna velit. Aenean nec libero eget risus
-                      sollicitudin rutrum sit amet ut urna. Vivamus pretium
-                      posuere tincidunt. Nam id consequat nisl, et scelerisque
-                      orci.
+                    Ademais, somos um contexto de desenvolvimento acadêmico, uma vez que professores e docentes realizam trabalho integrado para seleção e execução de abordagens criativas, ágeis e diferenciadas para a prestação dessas funções, sempre atentos às responsabilidades sociais alcançadas.
                     </p>
                   </span>
                 </div>
 
                 <div className={Quemsomos.list}>
                   <div className={Quemsomos.item}>
-                    <img className={Quemsomos.icone} src={Icon1} alt="" />
+                    <img className={Quemsomos.icone} src={IconMissao} alt="" />
                     <div className={Quemsomos.item__description}>
                       <h3>Missão</h3>
                       <p>
-                        Quisque eget consequat nisi, sed sollicitudin metus. Nam
-                        faucibus viverra dui vitae pulvinar. Donec diam lacus,
-                        sollicitudin eu metus eu,
+                      Proporcionamos serviços de consultoria, curadoria, design e desenvolvimento de software, por meio da atuação em um espaço inovador, com integração de alunos e professores em uma jornada de aprendizagem criativa.
                       </p>
                     </div>
                   </div>
                   <div className={Quemsomos.item}>
-                    <img className={Quemsomos.icone} src={Icon2} alt="" />
+                    <img className={Quemsomos.icone} src={IconValores} alt="" />
                     <div className={Quemsomos.item__description}>
                       <h3>Valores</h3>
                       <p>
-                        Quisque eget consequat nisi, sed sollicitudin metus. Nam
-                        faucibus viverra dui vitae pulvinar. Donec diam lacus,
-                        sollicitudin eu metus eu,
+                      Fornecer orientação e direção a idealização, planejamento e construção de produtos tecnológicos, com foco na praticidade, velocidade e qualidade.
                       </p>
                     </div>
                   </div>
@@ -130,41 +122,23 @@ function Page() {
               <h2>Serviços</h2>
               <div className={Servicos.list}>
                 <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
+                  <img className={Servicos.icone} src={IconDesenvolvimento} alt="" />
                   <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                  <p>Construção de aplicações com metodologias ágeis e aplicações de padrões de projetos, tendo em vista a qualidade, manutenibilidade e escalabilidade do projetos.</p>
                 </div>
 
                 <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
-                  <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                  <img className={Servicos.icone} src={IconAppDesign} alt="" />
+                  <h3>Design UI/UX</h3>
+                  <p>Realização de prototipagem de projetos, tendo em foco a excelência da experiência de uso do usuário na aplicação, em consonância com a missão e valores almejados.</p>
                 </div>
 
                 <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
-                  <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
+                  <img className={Servicos.icone} src={IconRequisitos} alt="" />
+                  <h3>Consultoria</h3>
+                  <p>Por meio da realização de técnicas de elicitação, determinam-se e analisam-se Requisitos Funcionais e Não Funcionais de projetos em estágio de concepção</p>
                 </div>
-
-                <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
-                  <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
-                </div>
-
-                <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
-                  <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
-                </div>
-
-                <div className={Servicos.item}>
-                  <img className={Servicos.icone} src={IconBlock} alt="" />
-                  <h3>Desenvolvimento</h3>
-                  <p>Lorem ipsum dolor sit amet, consecteteu.</p>
-                </div>
-              </div>
+             </div>
             </div>
           </ModelSection>
 
@@ -184,43 +158,29 @@ function Page() {
                 <h2>Contato</h2>
                 <div className={Contato.contato}>
                   <form className={Contato.form}>
-                    <p>Leave us a mesage</p>
+                    <p>Fale Conosco</p>
                     <input
                       className={Contato.input}
                       type="text"
-                      placeholder="Nome"
+                      placeholder=" Nome"
                     ></input>
                     <input
                       className={Contato.input}
                       type="email"
-                      placeholder="Email"
+                      placeholder=" Email"
                     ></input>
                     <input
                       className={Contato.input}
                       type="text"
-                      placeholder="Sua Mensagem"
+                      placeholder=" Sua Mensagem"
                     ></input>
-                    <ButtonForm type="submit">Send</ButtonForm>
+                    <ButtonForm type="submit">Enviar</ButtonForm>
                   </form>
                   <div className={Contato.containerInfo}>
                     <div className={Contato.info}>
                       <img src={IconBlock} className={Contato.icon} alt="" />
                       <p>bitcev@gmail.com </p>
-                    </div>
-                    <div className={Contato.info}>
-                      <img src={IconBlock} className={Contato.icon} alt="" />
-                      <p>bitcev@gmail.com </p>
-                    </div>
-                    <div className={Contato.info}>
-                      <img src={IconBlock} className={Contato.icon} alt="" />
-                      <p>bitcev@gmail.com </p>
-                    </div>
-                    <div className={Contato.social}>
-                      <img className={Contato.icon} src={IconBlock} alt="" />
-                      <img className={Contato.icon} src={IconBlock} alt="" />
-                      <img className={Contato.icon} src={IconBlock} alt="" />
-                      <img className={Contato.icon} src={IconBlock} alt="" />
-                    </div>
+                    </div>                  
                     <Maps />
                   </div>
                 </div>

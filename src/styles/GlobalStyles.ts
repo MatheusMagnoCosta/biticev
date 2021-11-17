@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
         padding:0;
         //z-index:-100;
         box-sizing:border-box;
-        scroll-behavior: smooth;
+        
     }
     *, input, button{
         font-family: 'Roboto', sans-serif;

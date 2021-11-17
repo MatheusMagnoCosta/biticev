@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { config } from "@react-spring/web";
-import Avatar from "../../../assets/img/avatar.png";
+//import Avatar from "../../../assets/img/avatar.png";
+import Fernando from "../../../assets/img/fernando.png";
+import Mateus from "../../../assets/img/mateus.png";
+import Lia from "../../../assets/img/lia.png";
+import Regla from "../../../assets/img/regla.png";
+import Artur from "../../../assets/img/artur.png";
+import Fabio from "../../../assets/img/fabio.png";
 
 import Time from "../../../styles/Time.module.css";
 
@@ -18,11 +24,12 @@ export const Carousel1 = () => {
       key: 1,
       content: (
         <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
-          <span className={Time.span}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          <img className={Time.avatar} src={Artur} alt="" />
+          <h3> Artur Felipe Veloso</h3>
+          <span>
+            Professor Coordenador
+            <br/>
+            Engenheiro de qualidade
           </span>
         </div>
       ),
@@ -31,11 +38,12 @@ export const Carousel1 = () => {
       key: 2,
       content: (
         <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
+          <img className={Time.avatar} src={Lia} alt="" />
+          <h3>Lia Mariana</h3>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+           Desenvolvedora Front-End
+           <br/>
+           Designer Ux
           </span>
         </div>
       ),
@@ -44,11 +52,12 @@ export const Carousel1 = () => {
       key: 3,
       content: (
         <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
+          <img className={Time.avatar} src={Fabio} alt="" />
+          <h3>Fabio Borges</h3>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+           Professor Coordenador
+          <br/>  
+          Gerente de Projeto
           </span>
         </div>
       ),
@@ -57,11 +66,10 @@ export const Carousel1 = () => {
       key: 4,
       content: (
         <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
+          <img className={Time.avatar} src={Mateus} alt="" />
+          <h3>Mateus Magno</h3>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Desenvolvedor Front-End
           </span>
         </div>
       ),
@@ -70,11 +78,10 @@ export const Carousel1 = () => {
       key: 5,
       content: (
         <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          <img className={Time.avatar} src={Fernando} alt="" />
+          <h3>Fernando Eulálio</h3>
+          <span className={Time.span}>
+            Desenvolvedor Back-End
           </span>
         </div>
       ),
@@ -82,14 +89,15 @@ export const Carousel1 = () => {
     {
       key: 6,
       content: (
-        <div className={Time.time}>
-          <img className={Time.avatar} src={Avatar} alt="" />
-          <h3>Nome</h3>
+       <div className={Time.time}>
+          <img className={Time.avatar} src={Regla} alt="" />
+          <h3>Regla Bel</h3>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Desenvolvedora Front-End
+           <br/>
+           Designer Ux
           </span>
-        </div>
+        </div> 
       ),
     },
   ].map((slide, index) => {
